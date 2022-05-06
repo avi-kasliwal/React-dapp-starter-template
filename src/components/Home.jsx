@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Jumbotron from "./Jumbotron";
 import SimpleStorage from "./SimpleStorage";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Jumbotron />
       <SimpleStorage />
+      <Footer />
     </>
   );
 };

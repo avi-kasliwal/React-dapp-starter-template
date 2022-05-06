@@ -9,8 +9,8 @@ const Jumbotron = () => {
         the one in previous versions of Bootstrap. Check out the examples below
         for how you can remix and restyle it to your liking.
       </p>
-      <button className="btn btn-primary btn-lg" type="button">
-        Example button
+      <button className="btn btn-outline-dark btn-lg" type="button">
+        Github
       </button>
     </div>
   );
