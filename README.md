@@ -1,38 +1,35 @@
-# Template
+# React dApp Starter Template
 
-# 2_simple_storage.js
+A starter template to create dApps using React & Truffle. The template includes the following tools and library:
 
-Deploying 'SimpleStorage'
+- Truffle (W/ rinkbey and HDwalletProvider)
+- React 17 (W/ Hooks and Context API)
+- Web3JS
+- Dotenv (to store mnemonic secretly)
+- A demo Smart Contract -> Simple Storage and UI to interact with it.
 
----
+## How to use the template?
 
-> transaction hash: 0x9b5a13b1481dd083bab331c255a2061d7da70b32215e1dfa39631d41de954079
-> Blocks: 1 Seconds: 9
-> contract address: 0x390eb628D4E4b425E24F6E28d71897D5a509552F
-> block number: 10629023
-> block timestamp: 1651841568
-> account: 0x9e0aD2A898826947DcE3303347b3Bc3e3C54c1e1
-> balance: 14.323991831216859222
-> gas used: 173479 (0x2a5a7)
-> gas price: 5.636074913 gwei
-> value sent: 0 ETH
-> total cost: 0.000977740639832327 ETH
+1. Clone the repository
+   ```
+   git clone https://github.com/avi-kasliwal/React-dapp-starter-template.git
+   ```
+2. install the dependent packages using :
+   ```
+   npm install
+   ```
+3. create a `.secret` file in the root directory and paste ur metamask mnemonic there. (Don't worry, your passphrase won't be shared on github as `.secret` is mentioned in the `.gitignore` file).
+4. Compile and Migrate the demo smart contracts using:
+   ```
+   truffle migrate
+   ```
+5. Run your React UI using :
+   ```
+   npm start
+   ```
+6. Interact with the demo app and if everything looks good, you can get started by removing the boiler plate code!
 
-Pausing for 2 confirmations...
+## End message
 
----
-
-> confirmation number: 1 (block: 10629024)
-> confirmation number: 2 (block: 10629025)
-
-> Saving migration to chain.
-> Saving artifacts
-
----
-
-> Total cost: 0.000977740639832327 ETH
-
-# Summary
-
-> Total deployments: 2
-> Final cost: 0.002375081537172121 ETH
+If you have any feedback or have any doubts you can reach to me on my twitter handle : <a href='https://twitter.com/Kasliwal_Avi' target='_blank'>Kasliwal_Avi</a>.
+Please star the repo if it helped you, will add more starter templates for different frameworks (like Next, React Native).
