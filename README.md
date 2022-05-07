@@ -4,6 +4,7 @@ A starter template to create dApps using React & Truffle. The template includes 
 
 - Truffle (W/ rinkbey and HDwalletProvider)
 - React 17 (W/ Hooks and Context API)
+- Bootstrap
 - Web3JS
 - Dotenv (to store mnemonic secretly)
 - A demo Smart Contract -> Simple Storage and UI to interact with it.
