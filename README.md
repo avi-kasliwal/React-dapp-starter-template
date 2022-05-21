@@ -3,7 +3,7 @@
 A starter template to create dApps using React & Truffle. The template includes the following tools and library:
 
 - Truffle (W/ rinkbey and HDwalletProvider)
-- React 17 (W/ Hooks and Context API)
+- React 18 (W/ Hooks and Context API)
 - Bootstrap
 - Web3JS
 - Dotenv (to store mnemonic secretly)
@@ -22,7 +22,7 @@ A starter template to create dApps using React & Truffle. The template includes 
 3. create a `.secret` file in the root directory and paste ur metamask mnemonic there. (Don't worry, your passphrase won't be shared on github as `.secret` is mentioned in the `.gitignore` file).
 4. Compile and Migrate the demo smart contracts using:
    ```
-   truffle migrate
+   truffle migrate --network rinkbey --reset
    ```
 5. Run your React UI using :
    ```
